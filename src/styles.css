@@ -1,0 +1,68 @@
+/* Use full-height flex layout */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f6f8; /* Soft grey background */
+  color: #333;
+}
+
+/* Main content should expand to push footer down */
+main {
+  flex: 1;
+}
+
+/* Header */
+header h4 {
+  font-weight: 500;
+  color: red;
+}
+
+header p {
+  color: #607d8b;
+}
+
+/* Card styles with soft shadow and padding */
+.card.custom-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  padding: 1.2rem;
+  transition: box-shadow 0.3s ease;
+  background-color: #ffffff;
+}
+
+.card.custom-card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card .card-title {
+  font-size: 1.5rem;
+  color: #37474f;
+}
+
+/* Footer styles */
+footer.page-footer {
+  background-color: #eceff1; /* light grey footer */
+  color: #546e7a;
+  margin-top: auto;
+  padding: 1rem 0;
+}
+
+footer a {
+  color: #37474f;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Section spacing */
+main .section {
+  padding-bottom: 4rem;
+}
+
+
+
+
