@@ -1,68 +1,63 @@
-/* Use full-height flex layout */
-html, body {
-  height: 100%;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  font-family: 'Roboto', sans-serif;
-  background-color: #f4f6f8; /* Soft grey background */
-  color: #333;
+html {
+    margin: 1em;
+    font-size: 16px;
+    line-height: 1.45;
 }
 
-/* Main content should expand to push footer down */
-main {
-  flex: 1;
+body {
+    margin: 0 auto;
+    padding: 0;
+    color: black;
+    font-family: var(--sans-serif);
+    width: 800px;
+    max-width: 100%;
+    margin-bottom: 100px;
 }
 
-/* Header */
-header h4 {
-  font-weight: 500;
-  color: red;
+main > section {
+    border: .2em black double;
+    padding: 1em;
+    padding-top: 0;
 }
 
-header p {
-  color: #607d8b;
+section {
+    display: block;
+    unicode-bidi: isolate;
 }
 
-/* Card styles with soft shadow and padding */
-.card.custom-card {
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-  padding: 1.2rem;
-  transition: box-shadow 0.3s ease;
-  background-color: #ffffff;
+p, li, p a {
+    line-height: 1.75rem;
+    font-family: var(--serif);
 }
 
-.card.custom-card:hover {
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
 }
 
-.card .card-title {
-  font-size: 1.5rem;
-  color: #37474f;
+table, th, td {
+  border: 1px dotted black;
+  border-collapse: collapse;
+  padding: 10px
 }
 
-/* Footer styles */
-footer.page-footer {
-  background-color: #eceff1; /* light grey footer */
-  color: #546e7a;
-  margin-top: auto;
-  padding: 1rem 0;
+a {
+    color: blue;
 }
 
-footer a {
-  color: #37474f;
+div {border-style: double;}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
 }
 
-footer a:hover {
-  text-decoration: underline;
+footer small {
+    text-align: center;
 }
-
-/* Section spacing */
-main .section {
-  padding-bottom: 4rem;
-}
-
-
-
-
