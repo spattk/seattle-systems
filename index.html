@@ -1,86 +1,292 @@
+---
+layout: default
+---
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Seattle Systems</title>
-    <link rel="stylesheet" href="styles.css"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Seattle Systems</title>
+  <meta name="description"
+    content="Seattle Systems - an community for distributed systems talks, workshops, and meetups in Seattle." />
+  <link rel="icon" href="/images/favicon.ico" />
+  <link rel="stylesheet" href="/styles.css" />
+  <meta property="og:title" content="Seattle Systems" />
+  <meta property="og:description"
+    content="Deep engineering talks in Seattle. Company-neutral, practitioner-friendly." />
+  <meta property="og:image" content="{{ '/images/logo.png' | relative_url }}" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}/" />
+
 </head>
+
 <body>
-    <header>
-        <h1>Seattle Systems</h1>
-    </header>
-    <main>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="/">
+        <img src="/images/logo_small.png" alt="Seattle Systems logo" class="brand-logo" width="40" height="40" />
+        <span>Seattle Systems</span>
+      </a>
 
-        <section>
-            <h2>Who are we ?</h2>
-            <p>Seattle Systems is an independent tech talk series focused on systems programming. It is entirely community-run, not affiliated with any company.</p>
-            <p>We are developers, managers, founders, VCs, and students focused on high quality talks and expert speakers. Talks about engineering, not product pitches.</p>
-            <p>
-                Speakers will share their experience building, debugging, testing, and maintaining:
-                <ul>
-                    <li>Compilers, parsers, virtual machines, IDEs, profiling, etc.</li>
-                    <li>Databases, storage, networking, distributed systems</li>
-                    <li>Large scale infrastructure, low latency, high availability services</li>
-                    <li>Formal methods, verification</li>
-                    <li>Browsers, kernel development, security, etc.</li>
-                </ul>
-            </p>
-        </section>
+      <button id="menuToggle" aria-controls="mobileNav" aria-expanded="false">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+      <nav aria-label="Primary">
+        <ul id="desktopNav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#events">Events</a></li>
+        </ul>
+        <ul class="social" aria-label="Social links">
+          <li>
+            <a class="icon-btn has-tip"
+              href="https://docs.google.com/forms/d/1WUwZUpda0AymEpquoSDaKiGgVqcEdRnGqdEFAm60XDE" target="_blank"
+              rel="noopener" aria-label="Join our mailing list" data-tip="Mailing list">
+              <!-- mail icon -->
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                <path d="M4 6h16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2zm0 2v.01L12 13l8-5V8"
+                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="icon-btn has-tip" href="https://lu.ma/seattle-sytems" target="_blank" rel="noopener"
+              aria-label="Subscribe to our calendar" data-tip="Calendar">
+              <!-- calendar icon -->
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                <path d="M16 2v4M8 2v4M3 10h18M5 6h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"
+                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="icon-btn has-tip" href="https://discord.gg/kfBf5Ch6g3" target="_blank" rel="noopener"
+              aria-label="Join us on Discord" data-tip="Discord">
+              <!-- chat icon -->
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                <path d="M21 15a4 4 0 0 1-4 4H7l-4 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v8zM8 11h.01M12 11h.01M16 11h.01"
+                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <nav id="mobileNav" class="container" hidden>
+      <ul style="display:grid;gap:.25rem;padding:0 0 .8rem;list-style:none;margin:0">
+        <li><a href="#about">About</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="https://lu.ma/seattle-sytems">Calendar</a></li>
+        <li><a href="https://discord.gg/kfBf5Ch6g3">Discord</a></li>
+        <li><a href="https://docs.google.com/forms/d/1WUwZUpda0AymEpquoSDaKiGgVqcEdRnGqdEFAm60XDE">Join our mailing
+            list</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <section>
-            <h2>Schedule</h2>
-            <table>
-                <thead>
-                <tr>
-                    <th>Date</th>
-                    <th>Event/Speakers</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>July 23, 2025</td>
-                    <td><a href="https://lu.ma/v7acufk2">Seattle Systems v0.0.1</a></td>
-                </tr>
-                <tr>
-                    <td>August 21, 2025</td>
-                    <td><a href="https://lu.ma/umtmqb38">Transactions and Coordination in Aurora DSQL by Marc Brooker</a></td>
-                </tr>
-                <tr>
-                    <td>September, 2025</td>
-                    <td>Stay tuned!</td>
-                </tr>
-                </tbody>
-            </table>
-        </section>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div>
+        <span class="badge">Independent · Distributed Systems</span>
+        <h1>Deep engineering talks, right here in Seattle.</h1>
+        <p>Seattle Systems is a community-run meetup focused on distributed systems - algorithms, architecture,
+          reliability, and the hard problems between. Company-neutral, practitioner-friendly.</p>
+      </div>
+      <div>
+        <img src="/images/logo_small.png" alt="Seattle Systems logo" class="brand-logo" width="350px" />
+      </div>
+    </div>
+  </section>
 
-        <section>
-            <h2>Stay in the loop</h2>
-            <p>Fill out the <a href="https://docs.google.com/forms/d/1WUwZUpda0AymEpquoSDaKiGgVqcEdRnGqdEFAm60XDE">Google Form.</a> to join our mailing lists</p>
+  <!-- About -->
+  <section id="about" class="container">
+    <h2>What we're about</h2>
+    <p class="kicker">Open, technical, and welcoming to practitioners of all backgrounds.</p>
+    <div class="grid cards-3">
+      <article class="card">
+        <h3>Real-world depth</h3>
+        <p>We focus on distributed systems in practice: consistency, consensus, CAP tradeoffs, observability, data
+          movement, fault tolerance, and performance at scale.</p>
+      </article>
+      <article class="card">
+        <h3>Community first</h3>
+        <p>Run by engineers for engineers - bringing together students, VCs, managers, founders, and researchers
+          across the Seattle area.</p>
+      </article>
+      <article class="card">
+        <h3>Company-neutral</h3>
+        <p>No sales decks. Speakers share designs, incidents, and lessons learned so we can all build more resilient
+          systems.</p>
+      </article>
+    </div>
+  </section>
 
-            <p>Subscribe to our <a href="https://lu.ma/seattle-sytems">events calendar</a> to get updates of our upcoming events</p>
+  <!-- Accent band -->
+  <section class="band">
+    <div class="container">
+      <div>
+        <h2 >Why the focus on systems?</h2>
+        <p>Distributed systems are where theory meets production. We dig into the trade-offs behind real services:
+          latency budgets, backpressure, replication strategies, and failure modes - the details that decide whether
+          systems bend or break.</p>
+      </div>
+      <div class="card" style="background:var(--primary);color:white">
+        <h3 >Typical topics</h3>
+        <ul style="margin:0;padding-left:1.1rem;line-height:1.7">
+          <li>Compilers, parsers, VMs, profiling, and IDEs</li>
+          <li>Databases, networking, and large-scale infrastructure</li>
+          <li>Formal methods and verification</li>
+          <li>Browsers, kernel development, and security</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-            <p>Need a quicker way to talk, share ideas, or just geek out with the crew? Join us on <a href="https://discord.gg/kfBf5Ch6g3">Discord!</a></p>
-        </section>
+  <section id="events" class="container">
+    <h2>Upcoming events</h2>
+    <p class="kicker">Talks are free. RSVP required when seats are limited.</p>
 
-        <section>
-            <h2>Kindred Spirits</h2>
-            <ul>
-                <li><a href="https://nycsystems.xyz/">NYC Systems</a></li>
-                <li><a href="https://munichdatabases.xyz/">Munich Database Meetup</a></li>
-                <li><a href="https://berlinsystems.xyz/">Berlin Systems Group</a></li>
-                <li><a href="https://twitter.com/BengaluruSys">Bengaluru Systems Meetup</a></li>
-                <li><a href="https://www.sfsystemsclub.com/">San Francisco Systems Club</a></li>
-                <li><a href="https://helsystems.xyz/">Systems from HEL</a></li>
-                <li><a href="https://dcsystems.xyz/">DC Systems</a></li>
-                <li><a href="https://vancouver.systems/">Vancouver Systems</a></li>
-                <li><a href="https://lu.ma/southbaysystems">South Bay Systems</a></li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <small>This talk series is organized by <a href="https://www.linkedin.com/in/ardentperf/">Jeremy</a>, <a href="https://www.linkedin.com/in/lloyd-albin/">Lloyd</a>, <a href="https://www.linkedin.com/in/devhawk/">Harry</a>, <a href="https://www.linkedin.com/in/adron/">Adron</a>, <a href="https://www.linkedin.com/in/jeffjirsa/">Jeff</a>, <a href="https://www.linkedin.com/in/spattk/">Sitesh</a></small>
-        <small>Inspired by <a href="https://nycsystems.xyz/">nycsystems.xyz</a></small>
-    </footer>
+    {% assign src = site.data.events %}
+    {% assign all_events = src.events | default: src %}
+    {% assign now = site.time | date: "%s" | plus: 0 %}
+    {% assign sorted = all_events | sort: "date" %}
+
+    <div class="grid cards-3" aria-live="polite">
+      {% assign any = 0 %}
+      {% for e in sorted %}
+      {% assign event_epoch = e.date | date: "%s" | plus: 0 %}
+      {% if event_epoch >= now %}
+      {% assign any = any | plus: 1 %}
+      <article class="card event-card">
+        {% if e.meta %}<div class="event-banner"><span>{{ e.meta }}</span></div>{% endif %}
+
+        <div class="card-data">
+          <div class="event-date">
+            {{ e.date | date: "%b %-d, %Y" }}{% if e.time %} · {{ e.time }}{% endif %}
+          </div>
+
+          <h3>{{ e.title }}</h3>
+          {% if e.location %}<p class="event-location"><strong>📍 Location:</strong> {{ e.location }}</p>{% endif %}
+          {% if e.desc %}<p class="event-description">{{ e.desc }}</p>{% endif %}
+        </div>
+        {% if e.sponsor %}
+        <div class="event-sponsor">
+          <span class="sponsor-label">Event sponsored by
+            {% if e.sponsor_url %}<a href="{{ e.sponsor_url }}" target="_blank" rel="noopener" class="sponsor-name">{{
+              e.sponsor }}</a>{% else %}<span class="sponsor-name">{{ e.sponsor }}</span>{% endif %}</span>
+        </div>
+        {% endif %}
+
+        {% if e.rsvp_url or e.stream_url %}
+        <div class="event-actions">
+          {% if e.rsvp_url %}
+          <a class="btn primary" href="{{ e.rsvp_url }}" target="_blank" rel="noopener">
+            Attend in person
+          </a>
+          {% endif %}
+          {% if e.stream_url %}
+          <a class="btn primary" href="{{ e.stream_url }}" target="_blank" rel="noopener">
+            Watch online
+          </a>
+          {% endif %}
+        </div>
+        {% endif %}
+      </article>
+      {% endif %}
+      {% endfor %}
+      {% if any == 0 %}
+      <p>No upcoming events — check back soon.</p>
+      {% endif %}
+    </div>
+  </section>
+
+  <section class="other-communities">
+    <div class="container">
+      <h2>Other systems-minded communities we love</h2>
+      <ul class="link-grid">
+        <li><a class="link-chip" href="https://nycsystems.xyz/" target="_blank" rel="noopener">NYC Systems</a></li>
+        <li><a class="link-chip" href="https://munichdatabases.xyz/" target="_blank" rel="noopener">Munich Database
+            Meetup</a></li>
+        <li><a class="link-chip" href="https://berlinsystems.xyz/" target="_blank" rel="noopener">Berlin Systems
+            Group</a>
+        </li>
+        <li><a class="link-chip" href="https://twitter.com/BengaluruSys" target="_blank" rel="noopener">Bengaluru
+            Systems</a></li>
+        <li><a class="link-chip" href="https://www.sfsystemsclub.com/" target="_blank" rel="noopener">SF Systems
+            Club</a>
+        </li>
+        <li><a class="link-chip" href="https://helsystems.xyz/" target="_blank" rel="noopener">Systems from HEL</a></li>
+        <li><a class="link-chip" href="https://dcsystems.xyz/" target="_blank" rel="noopener">DC Systems</a></li>
+        <li><a class="link-chip" href="https://vancouver.systems/" target="_blank" rel="noopener">Vancouver Systems</a>
+        </li>
+        <li><a class="link-chip" href="https://lu.ma/southbaysystems" target="_blank" rel="noopener">South Bay
+            Systems</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="container footer-content">
+      <div>
+        <small>© <span id="year"></span> Seattle Systems. Community-run and company-neutral.</small>
+        <br />
+        <small>
+          Organized by
+          <a href="https://www.linkedin.com/in/adron/" target="_blank" rel="noopener">Adron</a>,
+          <a href="https://www.linkedin.com/in/devhawk/" target="_blank" rel="noopener">Harry</a>,
+          <a href="https://www.linkedin.com/in/jeffjirsa/" target="_blank" rel="noopener">Jeff</a>,
+          <a href="https://www.linkedin.com/in/ardentperf/" target="_blank" rel="noopener">Jeremy</a>, and
+          <a href="https://www.linkedin.com/in/spattk/" target="_blank" rel="noopener">Sitesh</a>.
+        </small>
+      </div>
+
+      <div class="footer-column">
+        <small><a href="#about">About</a> · <a href="#events">Events</a></small>
+        <small>Made with 💚 by <a href="https://gomomento.com">Momento</a></small>
+      </div>
+
+      <div class="social-footer" aria-label="Social links">
+        <a class="icon-btn has-tip" href="https://docs.google.com/forms/d/1WUwZUpda0AymEpquoSDaKiGgVqcEdRnGqdEFAm60XDE"
+          target="_blank" rel="noopener" aria-label="Join our mailing list" data-tip="Mailing list">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+            <path d="M4 6h16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2zm0 2v.01L12 13l8-5V8"
+              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </a>
+        <a class="icon-btn has-tip" href="https://lu.ma/seattle-systems" target="_blank" rel="noopener"
+          aria-label="Subscribe to our calendar" data-tip="Calendar">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+            <path d="M16 2v4M8 2v4M3 10h18M5 6h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"
+              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </a>
+        <a class="icon-btn has-tip" href="https://discord.gg/kfBf5Ch6g3" target="_blank" rel="noopener"
+          aria-label="Join us on Discord" data-tip="Discord">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+            <path d="M21 15a4 4 0 0 1-4 4H7l-4 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v8zM8 11h.01M12 11h.01M16 11h.01"
+              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const mobileNav = document.getElementById('mobileNav');
+    menuToggle?.addEventListener('click', () => { const isOpen = !mobileNav.hasAttribute('hidden'); mobileNav.toggleAttribute('hidden'); menuToggle.setAttribute('aria-expanded', String(!isOpen)); });
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
+
 </html>
