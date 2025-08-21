@@ -155,14 +155,14 @@ layout: null
 
     {% assign src = site.data.events %}
     {% assign all_events = src.events | default: src %}
-    {% assign now = site.time | date: "%s" | plus: 0 %}
+    {% assign today_key = site.time | date: "%Y%m%d" %}
     {% assign sorted = all_events | sort: "date" %}
 
     <div class="grid cards-3" aria-live="polite">
       {% assign any = 0 %}
       {% for e in sorted %}
-      {% assign event_epoch = e.date | date: "%s" | plus: 0 %}
-      {% if event_epoch >= now %}
+      {% assign event_key = e.date | date: "%Y%m%d" %}
+      {% if event_key >= today_key %}
       {% assign any = any | plus: 1 %}
       <article class="card event-card">
         {% if e.meta %}<div class="event-banner"><span>{{ e.meta }}</span></div>{% endif %}
