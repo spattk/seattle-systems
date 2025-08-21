@@ -1,0 +1,19 @@
+events:
+  - title: "Transactions and Coordination in Aurora DSQL"
+    date: 2025-08-21
+    time: 5:30pm - 8:30pm
+    location: SURF Incubator, 999 3rd Ave Suite 700, Seattle, WA
+    meta: Systems Engineering
+    desc: Take a peek at the inner workings of Aurora DSQL with Marc Brooker. Explore using physical time to execute transactions with minimal coordination.
+    rsvp_url: https://lu.ma/umtmqb38
+    stream_url: https://linkedin.com/feed/update/urn:li:ugcPost:7361474418771988480/
+    sponsor: Momento
+    sponsor_url: "https://www.gomomento.com"
+
+  - title: Seattle Systems v0.0.1
+    date: 2025-07-23
+    time: 6:00pm - 8:00pm
+    location: Seattle, WA
+    meta: Reliability Engineering
+    desc: Control planes, stateless vs. stateful strategy, and incident playbooks for multi-region failover.
+    rsvp_url: https://lu.ma/v7acufk2
