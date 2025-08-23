@@ -207,6 +207,64 @@ layout: null
     </div>
   </section>
 
+  <section id="past-events" class="container">
+    <h2>Past events</h2>
+    <p class="kicker">Talks are free. RSVP required when seats are limited.</p>
+
+    {% assign src = site.data.events %}
+    {% assign all_events = src.events | default: src %}
+    {% assign today_key = site.time | date: "%Y%m%d" %}
+    {% assign sorted = all_events | sort: "date" %}
+
+    <div class="grid cards-3" aria-live="polite">
+      {% assign any = 0 %}
+      {% for e in sorted %}
+      {% assign event_key = e.date | date: "%Y%m%d" %}
+      {% if event_key <= today_key %}
+      {% assign any = any | plus: 1 %}
+      <article class="card event-card">
+        {% if e.meta %}<div class="event-banner"><span>{{ e.meta }}</span></div>{% endif %}
+
+        <div class="card-data">
+          <div class="event-date">
+            {{ e.date | date: "%b %-d, %Y" }}{% if e.time %} · {{ e.time }}{% endif %}
+          </div>
+
+          <h3>{{ e.title }}</h3>
+          {% if e.location %}<p class="event-location"><strong>📍 Location:</strong> {{ e.location }}</p>{% endif %}
+          {% if e.desc %}<p class="event-description">{{ e.desc | truncate: 200 }}</p>{% endif %}
+        </div>
+        {% if e.sponsor %}
+        <div class="event-sponsor">
+          <span class="sponsor-label">Event sponsored by
+            {% if e.sponsor_url %}<a href="{{ e.sponsor_url }}" target="_blank" rel="noopener" class="sponsor-name">{{
+              e.sponsor }}</a>{% else %}<span class="sponsor-name">{{ e.sponsor }}</span>{% endif %}</span>
+        </div>
+        {% endif %}
+
+        {% if e.rsvp_url or e.stream_url %}
+        <div class="event-actions">
+          {% if e.rsvp_url %}
+          <a class="btn primary" href="{{ e.rsvp_url }}" target="_blank" rel="noopener">
+            Attend in person
+          </a>
+          {% endif %}
+          {% if e.stream_url %}
+          <a class="btn primary" href="{{ e.stream_url }}" target="_blank" rel="noopener">
+            Watch online
+          </a>
+          {% endif %}
+        </div>
+        {% endif %}
+      </article>
+      {% endif %}
+      {% endfor %}
+      {% if any == 0 %}
+      <p>No upcoming events — check back soon.</p>
+      {% endif %}
+    </div>
+  </section>
+
   <section class="other-communities">
     <div class="container">
       <h2>Other systems-minded communities we love</h2>

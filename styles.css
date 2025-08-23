@@ -240,6 +240,9 @@ section h2 {
 }
 
 .event-card {
+  display: flex;
+  flex-direction: column;
+  height: 360px;
   background: white;
   border: 1px solid var(--gray);
   border-radius: var(--radius);
@@ -354,6 +357,7 @@ footer {
 
 .event-actions {
   display: flex;
+  margin-top: auto;
 }
 
 .event-actions .btn {
