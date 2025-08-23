@@ -13,7 +13,7 @@ events:
   - title: Seattle Systems v0.0.1
     date: 2025-07-23
     time: 6:00pm - 8:00pm
-    location: Seattle, WA
-    meta: Reliability Engineering
-    desc: Control planes, stateless vs. stateful strategy, and incident playbooks for multi-region failover.
+    location: Terry Ave, Seattle, WA
+    meta: v.0.0.1
+    desc: This is the very first in-person meetup for Seattle Systems, and you’re invited. We’re gathering the curious, the nerdy, the builders, the system-thinkers, the “I’m not sure what this is yet but I’m into it” crowd. No strict agenda, just a space to meet like-minded folks, share what you’re working on (or just thinking about), and vibe with other people who get excited about weird ideas, messy diagrams, and experiments in tech, art, systems, and community.
     rsvp_url: https://lu.ma/v7acufk2
