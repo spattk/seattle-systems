@@ -174,7 +174,7 @@ layout: null
 
           <h3>{{ e.title }}</h3>
           {% if e.location %}<p class="event-location"><strong>📍 Location:</strong> {{ e.location }}</p>{% endif %}
-          {% if e.desc %}<p class="event-description">{{ e.desc }}</p>{% endif %}
+          {% if e.desc %}<p class="event-description">{{ e.desc | truncate: 200 }}</p>{% endif %}
         </div>
         {% if e.sponsor %}
         <div class="event-sponsor">
