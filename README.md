@@ -39,6 +39,27 @@ Site url: [www.seattlesystems.xyz](https://www.seattlesystems.xyz)
 4. **Stop the server**
    Press `CTRL + C` in your terminal.
 
+## Troubleshooting Local Development on macOS
+
+1. **Install ruby**
+   ```
+   brew install rbenv ruby-build
+   rbenv install 3.2.2
+   rbenv global 3.2.2
+   ```
+
+2. **Check ruby version** (>= 3.2.2)
+   ```
+   ruby -v
+   eval "$(rbenv init -)"
+   ```
+
+
+3. **Add rbenv to bashrc/zshrc**
+   ```
+   echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+   ```
+
 ## Deployment on GitHub Pages
 
 * This site is configured to run automatically on GitHub Pages.
