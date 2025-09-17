@@ -6,6 +6,8 @@ events:
     meta: Systems Engineering
     desc: Join us for the upcoming Seattle Systems talk on Scaling, Caching & Reactivity in Distributed Systems. For the first time, we have got two awesome engineers lined up to talk about distributed systems in depth.
     rsvp_url: https://luma.com/x54pm8cg
+    sponsor: DBOS Inc
+    sponsor_url: "https://www.dbos.dev/"
 
   - title: "Seattle Systems x Antithesis Happy Hour"
     date: 2025-09-02
