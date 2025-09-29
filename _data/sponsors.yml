@@ -1,0 +1,14 @@
+sponsors:
+  - name: "Momento"
+    date: 2025-08-25
+    sponsor_url: "https://www.gomomento.com/"
+    image_url: "../images/sponsors/gomomento_logo.jpeg"
+    width: 200px
+    height: 200px
+
+  - name: "DBOS Inc"
+    date: 2025-09-25
+    sponsor_url: "https://www.dbos.dev/"
+    image_url: "../images/sponsors/dbos_inc_logo.jpeg"
+    width: 200px
+    height: 200px
