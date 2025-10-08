@@ -266,7 +266,7 @@ layout: null
   </section>
 
   <section id="sponsors" class="container">
-    <h2>Sponsors</h2>
+    <h2>Event Sponsors</h2>
     <p class="kicker">Thanks to our amazing sponsors for supporting the events with venues and food.</p>
 
     {% assign src = site.data.sponsors %}
@@ -283,7 +283,7 @@ layout: null
         {% if e.image_url %}
         <div class="sponsor">
           <center>
-          <img src="{{ e.image_url }}" width="{{ e.width }}" height="{{ e.height }}">
+          <img src="{{ e.image_url }}" width="{{ e.width }}" height="{{ e.height }}" class="rounded-img">
           <h4 ><a class="sponsor-href"  href="{{ e.sponsor_url }}" target="_blank" rel="noopener">{{ e.name }}</a></h4>
           </center>
         </div>

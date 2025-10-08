@@ -373,6 +373,10 @@ footer {
   text-decoration: none;
 }
 
+.rounded-img {
+    border-radius: 8px;
+}
+
 .event-actions {
   display: flex;
   margin-top: auto;
