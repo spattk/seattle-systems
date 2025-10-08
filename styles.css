@@ -235,6 +235,10 @@ section h2 {
   box-shadow: var(--shadow);
 }
 
+.sponsor-card {
+  padding: 1.25rem;
+}
+
 .card h3 {
   margin: 0 1.5rem .5rem 0;
 }
@@ -353,6 +357,24 @@ footer {
 .sponsor-name:hover {
   color: var(--accent1);
   text-decoration: underline;
+}
+
+
+.sponsor-href {
+  border: 1px solid #025254;
+  border-radius: var(--radius);
+  padding: 10px;
+  background-color: white;
+}
+
+.sponsor-href:hover {
+  background-color: var(--accent2);
+  color: black;
+  text-decoration: none;
+}
+
+.rounded-img {
+    border-radius: 8px;
 }
 
 .event-actions {

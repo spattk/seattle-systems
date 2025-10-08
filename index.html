@@ -265,6 +265,34 @@ layout: null
     </div>
   </section>
 
+  <section id="sponsors" class="container">
+    <h2>Event Sponsors</h2>
+    <p class="kicker">Thanks to our amazing sponsors for supporting the events with venues and food.</p>
+
+    {% assign src = site.data.sponsors %}
+    {% assign all_sponsors = src.sponsors | default: src %}
+    {% assign sorted = all_sponsors | sort: "date" %}
+
+    <div class="grid cards-3" aria-live="polite">
+      {% assign any = 0 %}
+      {% for e in sorted %}
+      {% assign event_key = e.date | date: "%Y%m%d" %}
+      {% assign any = any | plus: 1 %}
+
+      <article class="sponsor-card">
+        {% if e.image_url %}
+        <div class="sponsor">
+          <center>
+          <img src="{{ e.image_url }}" width="{{ e.width }}" height="{{ e.height }}" class="rounded-img">
+          <h4 ><a class="sponsor-href"  href="{{ e.sponsor_url }}" target="_blank" rel="noopener">{{ e.name }}</a></h4>
+          </center>
+        </div>
+        {% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+
   <section class="other-communities">
     <div class="container">
       <h2>Other systems-minded communities we love</h2>
