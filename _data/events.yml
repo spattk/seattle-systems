@@ -1,4 +1,14 @@
 events:
+  - title: "Building Efficient Systems: From Protosockets to Global Tables"
+    date: 2025-10-29
+    time: 5:30pm - 8:30pm
+    location: SURF Incubator
+    meta: Systems Engineering
+    desc: From Minimal RPCs to Global Datastores, featuring building Protosocket and evolving DynamoDB’s Global Tables for multi-region scale.
+    rsvp_url: https://luma.com/n6a1kjgj
+    sponsor: Momento
+    sponsor_url: "https://www.gomomento.com"
+
   - title: "Scaling, Caching & Reactivity in Distributed Systems"
     date: 2025-09-25
     time: 5:30pm - 8:30pm
