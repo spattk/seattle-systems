@@ -214,7 +214,7 @@ layout: null
     {% assign src = site.data.events %}
     {% assign all_events = src.events | default: src %}
     {% assign today_key = site.time | date: "%Y%m%d" %}
-    {% assign sorted = all_events | sort: "date" %}
+    {% assign sorted = all_events | sort: "date" | reverse %}
 
     <div class="grid cards-3" aria-live="polite">
       {% assign any = 0 %}
