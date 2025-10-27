@@ -206,6 +206,18 @@ section {
   padding-block: 3rem;
 }
 
+#events,
+#past-events,
+#sponsors {
+  padding-block: 2rem;
+}
+
+#events .kicker,
+#past-events .kicker,
+#sponsors .kicker {
+  margin-bottom: 0.75rem;
+}
+
 section h2 {
   margin: 0 0 .75rem;
   color: var(--primary);
@@ -246,7 +258,7 @@ section h2 {
 .event-card {
   display: flex;
   flex-direction: column;
-  height: 360px;
+  height: 380px;
   background: white;
   border: 1px solid var(--gray);
   border-radius: var(--radius);
@@ -256,6 +268,7 @@ section h2 {
 
 .card-data {
   padding: 0 1.25em;
+  flex: 1 1 auto;
 }
 
 .meta {
@@ -379,7 +392,7 @@ footer {
 
 .event-actions {
   display: flex;
-  margin-top: auto;
+  margin-top: 0;
 }
 
 .event-actions .btn {

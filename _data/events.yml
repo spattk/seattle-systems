@@ -4,8 +4,9 @@ events:
     time: 5:30pm - 8:30pm
     location: SURF Incubator, Seattle, WA
     meta: Systems Engineering
-    desc: From Minimal RPCs to Global Datastores, featuring building Protosocket and evolving DynamoDB’s Global Tables for multi-region scale.
+    desc: From Minimal RPCs to Global Datastores, featuring building Protosocket and evolving DynamoDB's Global Tables for multi-region scale.
     rsvp_url: https://luma.com/n6a1kjgj
+    stream_url: https://www.linkedin.com/events/7388582589495693312/
     sponsor: Momento
     sponsor_url: "https://www.gomomento.com"
 
