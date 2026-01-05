@@ -218,6 +218,13 @@ section h2 {
   margin-bottom: 1.25rem;
 }
 
+.scam {
+  opacity: .85;
+  margin-bottom: 1.25rem;
+  color: red;
+  font-weight: bold
+}
+
 .grid {
   display: grid;
   gap: 1.25rem;
