@@ -1,4 +1,14 @@
 events:
+  - title: "Inside Stripe: Zero-Downtime Data Movement at Trillion-Dollar Scale"
+    date: 2026-01-29
+    time: 5:30pm - 8:30pm
+    location: SURF Incubator, Seattle, WA
+    meta: Systems Engineering
+    desc: Delve into Stripe's custom-built document database, DocDB, and its data movement platform, which enables scalable and reliable payment processing.
+    rsvp_url: https://luma.com/zflm6yfk
+    sponsor: Momento
+    sponsor_url: "https://www.gomomento.com"
+
   - title: "Building Efficient Systems: From Protosockets to Global Tables"
     date: 2025-10-29
     time: 5:30pm - 8:30pm
