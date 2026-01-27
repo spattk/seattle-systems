@@ -6,8 +6,11 @@ events:
     meta: Systems Engineering
     desc: Delve into Stripe's custom-built document database, DocDB, and its data movement platform, which enables scalable and reliable payment processing.
     rsvp_url: https://luma.com/zflm6yfk
-    sponsor: Momento
-    sponsor_url: "https://www.gomomento.com"
+    sponsors:
+      - name: Momento
+        url: https://www.gomomento.com/
+      - name: Valkey
+        url: https://valkey.io/
 
   - title: "Building Efficient Systems: From Protosockets to Global Tables"
     date: 2025-10-29
@@ -17,8 +20,9 @@ events:
     desc: From Minimal RPCs to Global Datastores, featuring building Protosocket and evolving DynamoDB's Global Tables for multi-region scale.
     rsvp_url: https://luma.com/n6a1kjgj
     stream_url: https://www.linkedin.com/events/7388582589495693312/
-    sponsor: Momento
-    sponsor_url: "https://www.gomomento.com"
+    sponsors:
+      - name : Momento
+        url: "https://www.gomomento.com"
 
   - title: "Scaling, Caching & Reactivity in Distributed Systems"
     date: 2025-09-25
@@ -27,8 +31,9 @@ events:
     meta: Systems Engineering
     desc: Join us for the upcoming Seattle Systems talk on Scaling, Caching & Reactivity in Distributed Systems. For the first time, we have got two awesome engineers lined up to talk about distributed systems in depth.
     rsvp_url: https://luma.com/x54pm8cg
-    sponsor: DBOS Inc
-    sponsor_url: "https://www.dbos.dev/"
+    sponsors:
+      - name: DBOS Inc
+        url: "https://www.dbos.dev/"
 
   - title: "Seattle Systems x Antithesis Happy Hour"
     date: 2025-09-02
@@ -37,8 +42,9 @@ events:
     meta: Happy Hour
     desc: Drinks are on us, snacks are stacked, and the space is set for good conversation. Grab a pint, swap some ideas, and keep the energy rolling.
     rsvp_url: https://luma.com/grdq28te
-    sponsor: Antithesis
-    sponsor_url: "https://antithesis.com/"
+    sponsors:
+      - name: Antithesis
+        url: "https://antithesis.com/"
 
   - title: "Transactions and Coordination in Aurora DSQL"
     date: 2025-08-21
@@ -48,8 +54,9 @@ events:
     desc: Take a peek at the inner workings of Aurora DSQL with Marc Brooker. Explore using physical time to execute transactions with minimal coordination.
     rsvp_url: https://lu.ma/umtmqb38
     stream_url: https://linkedin.com/feed/update/urn:li:ugcPost:7361474418771988480/
-    sponsor: Momento
-    sponsor_url: "https://www.gomomento.com"
+    sponsors:
+      - name : Momento
+        url: "https://www.gomomento.com"
 
   - title: Seattle Systems v0.0.1
     date: 2025-07-23
