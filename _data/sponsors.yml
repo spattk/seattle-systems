@@ -3,19 +3,26 @@ sponsors:
     date: 2025-08-25
     sponsor_url: "https://www.gomomento.com/"
     image_url: "../images/sponsors/logo-momento.png"
-    width: 200px
-    height: 200px
+    width: 175px
+    height: 175px
 
   - name: "Antithesis"
     date: 2025-09-03
     sponsor_url: "https://antithesis.com/"
     image_url: "../images/sponsors/antithesis_logo_b.png"
-    width: 200px
-    height: 200px
+    width: 175px
+    height: 175px
 
   - name: "DBOS Inc"
     date: 2025-09-25
     sponsor_url: "https://www.dbos.dev/"
     image_url: "../images/sponsors/dbos_inc_logo.jpeg"
-    width: 200px
-    height: 200px
+    width: 175px
+    height: 175px
+
+  - name: "Valkey"
+    date: 2025-09-25
+    sponsor_url: "https://www.valkey.io/"
+    image_url: "../images/sponsors/valkey-logo-og.png"
+    width: 175px
+    height: 175px

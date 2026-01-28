@@ -246,6 +246,10 @@ section h2 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.cards-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .card {
   background: white;
   border: 1px solid var(--gray);
