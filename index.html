@@ -289,7 +289,7 @@ layout: null
     {% assign all_sponsors = src.sponsors | default: src %}
     {% assign sorted = all_sponsors | sort: "date" %}
 
-    <div class="grid cards-3" aria-live="polite">
+    <div class="grid cards-4" aria-live="polite">
       {% assign any = 0 %}
       {% for e in sorted %}
       {% assign event_key = e.date | date: "%Y%m%d" %}
