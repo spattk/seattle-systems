@@ -246,16 +246,17 @@ section h2 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.cards-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
 .card {
   background: white;
   border: 1px solid var(--gray);
   border-radius: var(--radius);
   padding: 1.25rem;
   box-shadow: var(--shadow);
+}
+
+.grid.cards {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
 }
 
 .sponsor-card {
