@@ -1,4 +1,15 @@
 events:
+  - title: "Lessons from Open Sourcing Dicer: Databricks' Auto-Sharder"
+    date: 2026-02-25
+    time: 5:30pm - 8:30pm
+    location: SURF Incubator, Seattle, WA
+    meta: Systems Engineering
+    desc: Learn how Dicer works, why these design choices matter, and what this means for teams that want to build fast, resilient, stateful systems without taking on unsustainable operational complexity.
+    rsvp_url: https://luma.com/pzsypw9p
+    sponsors:
+      - name: Databricks
+        url: https://www.databricks.com/
+
   - title: "Inside Stripe: Zero-Downtime Data Movement at Trillion-Dollar Scale"
     date: 2026-01-29
     time: 5:30pm - 8:30pm
