@@ -26,3 +26,10 @@ sponsors:
     image_url: "../images/sponsors/valkey-logo-og.png"
     width: 175px
     height: 175px
+
+  - name: "Databricks"
+    date: 2026-02-25
+    sponsor_url: "https://www.databricks.com/"
+    image_url: "../images/sponsors/databricks-logo.png"
+    width: 175px
+    height: 175px
