@@ -178,9 +178,9 @@ layout: null
             {{ e.date | date: "%b %-d, %Y" }}{% if e.time %} · {{ e.time }}{% endif %}
           </div>
 
-          <h3>{{ e.title }}</h3>
+          <h3>{{ e.title | truncate: 60 }}</h3>
           {% if e.location %}<p class="event-location"><strong>📍 Location:</strong> {{ e.location }}</p>{% endif %}
-          {% if e.desc %}<p class="event-description">{{ e.desc | truncate: 200 }}</p>{% endif %}
+          {% if e.desc %}<p class="event-description">{{ e.desc | truncate: 190 }}</p>{% endif %}
         </div>
 
         {% if e.sponsors and e.sponsors.size > 0 %}
@@ -241,7 +241,7 @@ layout: null
             {{ e.date | date: "%b %-d, %Y" }}{% if e.time %} · {{ e.time }}{% endif %}
           </div>
 
-          <h3>{{ e.title }}</h3>
+          <h3>{{ e.title | truncate: 60 }}</h3>
           {% if e.location %}<p class="event-location"><strong>📍 Location:</strong> {{ e.location }}</p>{% endif %}
           {% if e.desc %}<p class="event-description">{{ e.desc | truncate: 200 }}</p>{% endif %}
         </div>

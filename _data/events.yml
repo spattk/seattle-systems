@@ -4,7 +4,7 @@ events:
     time: 5:30pm - 8:30pm
     location: Labour Temple, Seattle, WA
     meta: Systems Engineering
-    desc: Learn from building and operating large distributed systems where latency, throughput, and uptime constantly trade punches. Speakers introduce a new class of semi-formal performance modeling tools that simulate the behavior of complex systems by specifying components and their interactions.
+    desc: Learn from building and operating large distributed systems where latency, throughput, and uptime constantly trade punches using new class of semi-formal performance modeling tools that simulate the behavior of complex systems.
     rsvp_url: https://luma.com/56cfiiss
     sponsors:
       - name: MongoDB
