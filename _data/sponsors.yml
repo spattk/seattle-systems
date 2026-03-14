@@ -33,3 +33,10 @@ sponsors:
     image_url: "../images/sponsors/databricks-logo.png"
     width: 200px
     height: 175px
+
+  - name: "MongoDB"
+    date: 2026-03-24
+    sponsor_url: "https://www.mongodb.com/"
+    image_url: "../images/sponsors/mongodb-logo.png"
+    width: 175px
+    height: 175px
