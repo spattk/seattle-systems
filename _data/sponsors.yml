@@ -40,3 +40,10 @@ sponsors:
     image_url: "../images/sponsors/mongodb-logo.png"
     width: 175px
     height: 175px
+
+  - name: "Uber"
+    date: 2026-04-23
+    sponsor_url: "https://www.uber.com/us/en/about/"
+    image_url: "../images/sponsors/uber-logo.png"
+    width: 175px
+    height: 175px
