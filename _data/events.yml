@@ -1,4 +1,15 @@
 events:
+  - title: "From Code to Cables: Rethinking Reliability in Modern Systems"
+    date: 2026-04-23
+    time: 5:00pm - 8:00pm
+    location: TBD in Luma event page
+    meta: Systems Engineering
+    desc: From predicting safe code merges at scale to understanding the physical limits of the internet, this session connects software systems with the real-world infrastructure they run on. We’re bringing together two deep, practical sessions that go from large-scale code merging to the physical reality of the internet.
+    rsvp_url: https://luma.com/k8iwph1o
+    sponsors:
+      - name: Uber
+        url: https://www.uber.com/us/en/about/
+
   - title: "Availability Is Not an Accident and Performance Is Not a Number"
     date: 2026-03-24
     time: 5:30pm - 8:30pm
