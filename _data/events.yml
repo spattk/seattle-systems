@@ -1,36 +1,57 @@
 events:
-  - title: "From Code to Cables: Rethinking Reliability in Modern Systems"
-    date: 2026-04-23
-    time: 5:00pm - 8:00pm
-    location: TBD in Luma event page
-    meta: Systems Engineering
-    desc: From predicting safe code merges at scale to understanding the physical limits of the internet, this session connects software systems with the real-world infrastructure they run on. We’re bringing together two deep, practical sessions that go from large-scale code merging to the physical reality of the internet.
-    rsvp_url: https://luma.com/k8iwph1o
-    sponsors:
-      - name: Uber
-        url: https://www.uber.com/us/en/about/
+  - title: Seattle Systems v0.0.1
+    date: 2025-07-23
+    time: 6:00pm - 8:00pm
+    location: Terry Ave, Seattle, WA
+    meta: v.0.0.1
+    desc: This is the very first in-person meetup for Seattle Systems, and you’re invited. We’re gathering the curious, the nerdy, the builders, the system-thinkers, the “I’m not sure what this is yet but I’m into it” crowd. No strict agenda, just a space to meet like-minded folks, share what you’re working on (or just thinking about), and vibe with other people who get excited about weird ideas, messy diagrams, and experiments in tech, art, systems, and community.
+    rsvp_url: https://lu.ma/v7acufk2
 
-  - title: "Availability Is Not an Accident and Performance Is Not a Number"
-    date: 2026-03-24
+  - title: "Transactions and Coordination in Aurora DSQL"
+    date: 2025-08-21
     time: 5:30pm - 8:30pm
-    location: Labour Temple, Seattle, WA
+    location: SURF Incubator, 999 3rd Ave Suite 700, Seattle, WA
     meta: Systems Engineering
-    desc: Learn from building and operating large distributed systems where latency, throughput, and uptime constantly trade punches using new class of semi-formal performance modeling tools that simulate the behavior of complex systems.
-    rsvp_url: https://luma.com/56cfiiss
+    desc: Take a peek at the inner workings of Aurora DSQL with Marc Brooker. Explore using physical time to execute transactions with minimal coordination.
+    rsvp_url: https://lu.ma/umtmqb38
+    stream_url: https://linkedin.com/feed/update/urn:li:ugcPost:7361474418771988480/
     sponsors:
-      - name: MongoDB
-        url: https://www.mongodb.com/
+      - name: Momento
+        url: "https://www.gomomento.com"
 
-  - title: "Lessons from Open Sourcing Dicer: Databricks' Auto-Sharder"
-    date: 2026-02-25
+  - title: "Seattle Systems x Antithesis Happy Hour"
+    date: 2025-09-02
+    time: 5:30pm - 8:30pm
+    location: Here Today Brewery, Seattle, WA
+    meta: Happy Hour
+    desc: Drinks are on us, snacks are stacked, and the space is set for good conversation. Grab a pint, swap some ideas, and keep the energy rolling.
+    rsvp_url: https://luma.com/grdq28te
+    sponsors:
+      - name: Antithesis
+        url: "https://antithesis.com/"
+
+  - title: "Scaling, Caching & Reactivity in Distributed Systems"
+    date: 2025-09-25
+    time: 5:30pm - 8:30pm
+    location: Amazon - Doppler
+    meta: Systems Engineering
+    desc: Join us for the upcoming Seattle Systems talk on Scaling, Caching & Reactivity in Distributed Systems. For the first time, we have got two awesome engineers lined up to talk about distributed systems in depth.
+    rsvp_url: https://luma.com/x54pm8cg
+    sponsors:
+      - name: DBOS Inc
+        url: "https://www.dbos.dev/"
+
+  - title: "Building Efficient Systems: From Protosockets to Global Tables"
+    date: 2025-10-29
     time: 5:30pm - 8:30pm
     location: SURF Incubator, Seattle, WA
     meta: Systems Engineering
-    desc: Learn how Dicer works, why these design choices matter, and what this means for teams that want to build fast, resilient, stateful systems without taking on unsustainable operational complexity.
-    rsvp_url: https://luma.com/pzsypw9p
+    desc: From Minimal RPCs to Global Datastores, featuring building Protosocket and evolving DynamoDB's Global Tables for multi-region scale.
+    rsvp_url: https://luma.com/n6a1kjgj
+    stream_url: https://www.linkedin.com/events/7388582589495693312/
     sponsors:
-      - name: Databricks
-        url: https://www.databricks.com/
+      - name: Momento
+        url: "https://www.gomomento.com"
 
   - title: "Inside Stripe: Zero-Downtime Data Movement at Trillion-Dollar Scale"
     date: 2026-01-29
@@ -45,56 +66,43 @@ events:
       - name: Valkey
         url: https://valkey.io/
 
-  - title: "Building Efficient Systems: From Protosockets to Global Tables"
-    date: 2025-10-29
+  - title: "Lessons from Open Sourcing Dicer: Databricks' Auto-Sharder"
+    date: 2026-02-25
     time: 5:30pm - 8:30pm
     location: SURF Incubator, Seattle, WA
     meta: Systems Engineering
-    desc: From Minimal RPCs to Global Datastores, featuring building Protosocket and evolving DynamoDB's Global Tables for multi-region scale.
-    rsvp_url: https://luma.com/n6a1kjgj
-    stream_url: https://www.linkedin.com/events/7388582589495693312/
+    desc: Learn how Dicer works, why these design choices matter, and what this means for teams that want to build fast, resilient, stateful systems without taking on unsustainable operational complexity.
+    rsvp_url: https://luma.com/pzsypw9p
     sponsors:
-      - name : Momento
-        url: "https://www.gomomento.com"
+      - name: Databricks
+        url: https://www.databricks.com/
 
-  - title: "Scaling, Caching & Reactivity in Distributed Systems"
-    date: 2025-09-25
+  - title: "Availability Is Not an Accident and Performance Is Not a Number"
+    date: 2026-03-24
     time: 5:30pm - 8:30pm
-    location: Amazon - Doppler
+    location: Labour Temple, Seattle, WA
     meta: Systems Engineering
-    desc: Join us for the upcoming Seattle Systems talk on Scaling, Caching & Reactivity in Distributed Systems. For the first time, we have got two awesome engineers lined up to talk about distributed systems in depth.
-    rsvp_url: https://luma.com/x54pm8cg
+    desc: Learn from building and operating large distributed systems where latency, throughput, and uptime constantly trade punches using new class of semi-formal performance modeling tools that simulate the behavior of complex systems.
+    rsvp_url: https://luma.com/56cfiiss
     sponsors:
-      - name: DBOS Inc
-        url: "https://www.dbos.dev/"
+      - name: MongoDB
+        url: https://www.mongodb.com/
 
-  - title: "Seattle Systems x Antithesis Happy Hour"
-    date: 2025-09-02
-    time: 5:30pm - 8:30pm
-    location: Here Today Brewery, Seattle, WA
-    meta: Happy Hour
-    desc: Drinks are on us, snacks are stacked, and the space is set for good conversation. Grab a pint, swap some ideas, and keep the energy rolling.
-    rsvp_url: https://luma.com/grdq28te
-    sponsors:
-      - name: Antithesis
-        url: "https://antithesis.com/"
-
-  - title: "Transactions and Coordination in Aurora DSQL"
-    date: 2025-08-21
-    time: 5:30pm - 8:30pm
-    location: SURF Incubator, 999 3rd Ave Suite 700, Seattle, WA
+  - title: "From Code to Cables: Rethinking Reliability in Modern Systems"
+    date: 2026-04-23
+    time: 5:00pm - 8:00pm
+    location: TBD in Luma event page
     meta: Systems Engineering
-    desc: Take a peek at the inner workings of Aurora DSQL with Marc Brooker. Explore using physical time to execute transactions with minimal coordination.
-    rsvp_url: https://lu.ma/umtmqb38
-    stream_url: https://linkedin.com/feed/update/urn:li:ugcPost:7361474418771988480/
+    desc: From predicting safe code merges at scale to understanding the physical limits of the internet, this session connects software systems with the real-world infrastructure they run on. We’re bringing together two deep, practical sessions that go from large-scale code merging to the physical reality of the internet.
+    rsvp_url: https://luma.com/k8iwph1o
     sponsors:
-      - name : Momento
-        url: "https://www.gomomento.com"
+      - name: Uber
+        url: https://www.uber.com/us/en/about/
 
-  - title: Seattle Systems v0.0.1
-    date: 2025-07-23
-    time: 6:00pm - 8:00pm
-    location: Terry Ave, Seattle, WA
-    meta: v.0.0.1
-    desc: This is the very first in-person meetup for Seattle Systems, and you’re invited. We’re gathering the curious, the nerdy, the builders, the system-thinkers, the “I’m not sure what this is yet but I’m into it” crowd. No strict agenda, just a space to meet like-minded folks, share what you’re working on (or just thinking about), and vibe with other people who get excited about weird ideas, messy diagrams, and experiments in tech, art, systems, and community.
-    rsvp_url: https://lu.ma/v7acufk2
+  - title: "SRE DAY - Site Reliability, DevOps and Cloud"
+    date: 2026-04-21
+    time: 9:00am - 5:00pm
+    location: Gable.ai, Seattle, US
+    meta: Systems Engineering
+    desc: SRE DAY - Site Reliability, DevOps and Cloud (In-person conference)
+    rsvp_url: https://sreday.com/2026-seattle-q2/
