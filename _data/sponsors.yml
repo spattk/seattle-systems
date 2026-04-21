@@ -54,3 +54,10 @@ sponsors:
     image_url: "../images/sponsors/sreday-logo.png"
     width: 175px
     height: 175px
+
+  - name: "Unlocked Conf"
+    date: 2026-05-07
+    sponsor_url: "https://www.unlockedconf.io/"
+    image_url: "../images/sponsors/unlocked-conf.png"
+    width: 175px
+    height: 175px
