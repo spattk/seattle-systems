@@ -106,3 +106,11 @@ events:
     meta: Systems Engineering
     desc: SRE DAY - Site Reliability, DevOps and Cloud (In-person conference)
     rsvp_url: https://sreday.com/2026-seattle-q2/
+
+  - title: "Unlocked Conference - 2026"
+    date: 2026-05-07
+    time: 8:00am - 7:00pm
+    location: T-Mobile Park, Seattle
+    meta: Systems Engineering
+    desc: Unlocked Conference (In-person conference)
+    rsvp_url: https://www.unlockedconf.io/
