@@ -61,3 +61,10 @@ sponsors:
     image_url: "../images/sponsors/unlocked-conf.png"
     width: 175px
     height: 175px
+
+  - name: "Boundary (YC)"
+    date: 2026-05-21
+    sponsor_url: "https://boundaryml.com/"
+    image_url: "../images/sponsors/boundaryml_logo.jpeg"
+    width: 175px
+    height: 175px
