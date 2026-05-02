@@ -114,3 +114,16 @@ events:
     meta: Systems Engineering
     desc: Unlocked Conference (In-person conference)
     rsvp_url: https://www.unlockedconf.io/
+
+  - title: "Serving and Programming LLMs: Agents, Prefill & Systems"
+    date: 2026-05-21
+    time: 5:30pm - 8:30pm
+    location: RSVP in Luma
+    meta: Systems Engineering
+    desc: Two angles on the LLM stack — how we serve them and how we program with them. Expect a deep dive into the distributed systems problem hiding inside LLM inference, and a fresh take on what programming languages should look like when agents are the ones writing the code
+    rsvp_url: https://luma.com/5adm75fh
+    sponsors:
+      - name: Boundary
+        url: https://boundaryml.com/
+      - name: Momento
+        url: https://momentohq.com/
