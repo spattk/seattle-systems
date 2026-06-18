@@ -127,3 +127,16 @@ events:
         url: https://boundaryml.com/
       - name: Momento
         url: https://momentohq.com/
+
+  - title: "Building Systems That Go Fast and Fail Safely"
+    date: 2026-06-25
+    time: 5:30pm - 8:30pm
+    location: SURF Incubator, Seattle, WA
+    meta: Systems Engineering
+    desc: "Two deep dives into high-performance systems: automated JDBC query caching with Valkey and deterministic simulation testing for distributed systems reliability."
+    rsvp_url: https://luma.com/k4mcjya9
+    sponsors:
+      - name: Valkey
+        url: https://valkey.io/
+      - name: Momento
+        url: https://momentohq.com/
