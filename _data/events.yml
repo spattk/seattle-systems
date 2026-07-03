@@ -133,7 +133,7 @@ events:
     time: 5:30pm - 8:30pm
     location: SURF Incubator, Seattle, WA
     meta: Systems Engineering
-    desc: "Two deep dives into high-performance systems: automated JDBC query caching with Valkey and deterministic simulation testing for distributed systems reliability."
+    desc: "Two deep dives into high-performance systems: Automated JDBC query caching with Valkey and deterministic simulation testing for distributed systems reliability."
     rsvp_url: https://luma.com/k4mcjya9
     sponsors:
       - name: Valkey
@@ -141,7 +141,7 @@ events:
       - name: Momento
         url: https://momentohq.com/
 
-  - title: "Breaking Things Before Production Does"
+  - title: "Breaking Things Before Production Does."
     date: 2026-07-13
     time: 5:00pm - 8:00pm
     location: SURF Incubator, Seattle, WA
