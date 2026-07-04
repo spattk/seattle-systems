@@ -141,7 +141,7 @@ events:
       - name: Momento
         url: https://momentohq.com/
 
-  - title: "Breaking Things Before Production Does."
+  - title: "Breaking Things Before Production Does"
     date: 2026-07-13
     time: 5:00pm - 8:00pm
     location: SURF Incubator, Seattle, WA
