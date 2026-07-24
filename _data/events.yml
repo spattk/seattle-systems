@@ -151,3 +151,14 @@ events:
     sponsors:
       - name: Antithesis
         url: https://antithesis.com/
+
+  - title: "Building Resilient Systems in the Age of Agentic Development"
+    date: 2026-08-13
+    time: 5:00pm - 9:00pm
+    location: SPIN, Seattle, WA
+    meta: Systems Engineering
+    desc: "Join Amazon Web Services (AWS) and Antithesis for a curated evening with engineers, development and infrastructure leaders exploring how teams can build resilient distributed systems while adopting faster, more autonomous software development workflows."
+    rsvp_url: https://luma.com/antith-5hm8
+    sponsors:
+      - name: Antithesis
+        url: https://antithesis.com/
