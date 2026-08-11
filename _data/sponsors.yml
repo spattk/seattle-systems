@@ -68,3 +68,10 @@ sponsors:
     image_url: "../images/sponsors/boundaryml_logo.jpeg"
     width: 175px
     height: 175px
+
+  - name: "Arm"
+    date: 2026-08-27
+    sponsor_url: "https://www.arm.com/"
+    image_url: "../images/sponsors/arm-logo.png"
+    width: 175px
+    height: 175px
