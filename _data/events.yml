@@ -162,3 +162,14 @@ events:
     sponsors:
       - name: Antithesis
         url: https://antithesis.com/
+
+  - title: "Autonomous Systems: Building Infrastructure That Thinks and Adapts"
+    date: 2026-08-27
+    time: 5:30pm - 8:30pm
+    location: SURF Incubator, Seattle, WA
+    meta: Systems Engineering
+    desc: "Agent harnesses as distributed systems for LLM inference optimization on Arm, and AI-powered polystores that adapt storage engines to evolving application workloads."
+    rsvp_url: https://luma.com/gdh3yi7u
+    sponsors:
+      - name: Arm
+        url: https://www.arm.com/
