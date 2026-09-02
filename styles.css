@@ -702,3 +702,33 @@ header .icon-btn:hover {
     justify-content: center;
   }
 }
+
+.event-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.past-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.7rem;
+  padding: 0.75rem 1rem;
+  margin-top: auto;
+}
+
+.past-link {
+  display: inline-block;
+  padding: 0.35rem 0.75rem;
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--primary) 8%, white);
+  color: var(--primary);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.past-link:hover {
+  background: var(--primary);
+  color: white;
+}

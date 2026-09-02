@@ -264,20 +264,20 @@ layout: null
 
         {% endif %}
 
-        {% if e.rsvp_url or e.stream_url %}
-        <div class="event-actions">
+        {% if e.rsvp_url or e.recording_url or e.slides_url %}
+        <div class="past-actions">
           {% if e.rsvp_url %}
-          <a class="btn primary" href="{{ e.rsvp_url }}" target="_blank" rel="noopener">
-            Attend in person
-          </a>
+          <a href="{{ e.rsvp_url }}" target="_blank" rel="noopener" class="past-link">Event page</a>
           {% endif %}
-          {% if e.stream_url %}
-          <a class="btn primary" href="{{ e.stream_url }}" target="_blank" rel="noopener">
-            Watch online
-          </a>
+          {% if e.recording_url %}
+          <a href="{{ e.recording_url }}" target="_blank" rel="noopener" class="past-link">Recording</a>
+          {% endif %}
+          {% if e.slides_url %}
+          <a href="{{ e.slides_url }}" target="_blank" rel="noopener" class="past-link">Slides</a>
           {% endif %}
         </div>
         {% endif %}
+
       </article>
       {% endif %}
       {% endfor %}
