@@ -170,6 +170,8 @@ events:
     meta: Systems Engineering
     desc: "Agent harnesses as distributed systems for LLM inference optimization on Arm, and AI-powered polystores that adapt storage engines to evolving application workloads."
     rsvp_url: https://luma.com/gdh3yi7u
+    recording_url: https://www.seattlesystems.xyz/
+    slides_url: https://www.seattlesystems.xyz/
     sponsors:
       - name: Arm
         url: https://www.arm.com/
