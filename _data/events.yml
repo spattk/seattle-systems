@@ -175,3 +175,14 @@ events:
     sponsors:
       - name: Arm
         url: https://www.arm.com/
+
+  - title: "Beyond the Model: Agents, Verification & Control Planes"
+    date: 2026-09-30
+    time: 5:30pm - 8:30pm
+    location: SURF Incubator, Seattle, WA
+    meta: Systems Engineering
+    desc: "Exploring the systems behind safe, reliable, and reproducible AI agents—from runtime policy enforcement to rigorous evaluation of real-world coding workflows."
+    rsvp_url: https://luma.com/dbdxzfgb
+    sponsors:
+      - name: Antithesis
+        url: https://antithesis.com/
