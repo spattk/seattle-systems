@@ -187,3 +187,14 @@ events:
       - name: Antithesis
         url: https://antithesis.com/
     slides_url: https://drive.google.com/drive/folders/1xWOxOiqojX9IhHEx1AKziDmiebk0bPkR
+
+  - title: "Beyond the LLM: Building Reliable AI Systems"
+    date: 2026-10-22
+    time: 5:30pm - 8:30pm
+    location: RSVP in Luma
+    meta: Systems Engineering
+    desc: "Two different approaches, but the same underlying question: how do we engineer AI systems that actually work in the real world?"
+    rsvp_url: https://luma.com/kz0zs6uz
+    sponsors:
+      - name: Uber
+        url: https://uber.com/
