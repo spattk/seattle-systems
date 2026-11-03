@@ -198,6 +198,7 @@ events:
     sponsors:
       - name: Uber
         url: https://uber.com/
+    slides_url: https://drive.google.com/drive/folders/1g0TMubsI91B1TLWACHdcwtiy7LuozXc8
 
   - title: "From Kernel to Codebase: Engineering Systems at Scale"
     date: 2026-11-19
