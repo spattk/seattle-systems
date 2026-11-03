@@ -198,3 +198,14 @@ events:
     sponsors:
       - name: Uber
         url: https://uber.com/
+
+  - title: "From Kernel to Codebase: Engineering Systems at Scale"
+    date: 2026-11-19
+    time: 5:30pm - 8:30pm
+    location: SURF Incubator, Seattle, WA
+    meta: Systems Engineering
+    desc: "From Linux networking at 10K+ snapshotted VM scale to the evolution of Git and the infrastructure powering modern development platforms"
+    rsvp_url: https://luma.com/h2ronbs4
+    sponsors:
+      - name: Antithesis
+        url: https://antithesis.com/
