@@ -75,3 +75,10 @@ sponsors:
     image_url: "../images/sponsors/arm-logo.png"
     width: 175px
     height: 175px
+
+  - name: "Fujitsu"
+    date: 2026-12-03
+    sponsor_url: "https://www.postgresql.fastware.com/"
+    image_url: "../images/sponsors/fujitsu-logo.png"
+    width: 220px
+    height: 175px
