@@ -214,10 +214,10 @@ events:
   - title: "Inside Modern Systems: From Database Perf to AI Infra"
     date: 2026-12-03
     time: 5:00pm - 8:00pm
-    location: RSVP in Luma
+    location: 500 108th Ave NE floor 26, Bellevue, WA 98004
     meta: Systems Engineering
     rsvp_url: https://luma.com/9xmhieku
     desc: "Exploring the engineering behind high-performance databases and the next generation of AI systems, from low-level I/O optimizations to autonomous systems development."
     sponsors:
-      - name: Fujitsu
+      - name: Fujitsu Enterprise Postgres
         url: https://www.postgresql.fastware.com/
