@@ -199,6 +199,7 @@ events:
       - name: Uber
         url: https://uber.com/
     slides_url: https://drive.google.com/drive/folders/1g0TMubsI91B1TLWACHdcwtiy7LuozXc8
+    recording_url: https://youtu.be/UraobF_-ebs
 
   - title: "From Kernel to Codebase: Engineering Systems at Scale"
     date: 2026-11-19
@@ -210,6 +211,7 @@ events:
     sponsors:
       - name: Antithesis
         url: https://antithesis.com/
+    slides_url: https://drive.google.com/drive/folders/1QBokqkx_Hh4fPK0I4dTAyck6JjKM7Gv-
 
   - title: "Inside Modern Systems: From Database Perf to AI Infra"
     date: 2026-12-03
