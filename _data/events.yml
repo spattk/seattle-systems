@@ -98,6 +98,8 @@ events:
     sponsors:
       - name: Uber
         url: https://www.uber.com/us/en/about/
+    recording_urls:
+      - https://youtu.be/O4sCvZAMC9w
 
   - title: "SRE DAY - Site Reliability, DevOps and Cloud"
     date: 2026-04-21
@@ -140,6 +142,9 @@ events:
         url: https://valkey.io/
       - name: Momento
         url: https://momentohq.com/
+    recording_urls:
+      - https://youtu.be/qB7q_FOjY7E
+      - https://youtu.be/J_akYtfHsHc
 
   - title: "Breaking Things Before Production Does"
     date: 2026-07-13
@@ -151,6 +156,9 @@ events:
     sponsors:
       - name: Antithesis
         url: https://antithesis.com/
+    recording_urls:
+      - https://youtu.be/qZwVcoQfn58
+      - https://youtu.be/3WmvWDqRjgs
 
   - title: "Building Resilient Systems in the Age of Agentic Development"
     date: 2026-08-13
@@ -187,6 +195,8 @@ events:
       - name: Antithesis
         url: https://antithesis.com/
     slides_url: https://drive.google.com/drive/folders/1xWOxOiqojX9IhHEx1AKziDmiebk0bPkR
+    recording_urls:
+      - https://youtu.be/hWv-UwAzLdI
 
   - title: "Beyond the LLM: Building Reliable AI Systems"
     date: 2026-10-22
@@ -199,7 +209,8 @@ events:
       - name: Uber
         url: https://uber.com/
     slides_url: https://drive.google.com/drive/folders/1g0TMubsI91B1TLWACHdcwtiy7LuozXc8
-    recording_url: https://youtu.be/UraobF_-ebs
+    recording_urls:
+      - https://youtu.be/UraobF_-ebs
 
   - title: "From Kernel to Codebase: Engineering Systems at Scale"
     date: 2026-11-19
@@ -212,6 +223,8 @@ events:
       - name: Antithesis
         url: https://antithesis.com/
     slides_url: https://drive.google.com/drive/folders/1QBokqkx_Hh4fPK0I4dTAyck6JjKM7Gv-
+    recording_urls:
+     - https://youtu.be/XKPnlsWeQ54
 
   - title: "Inside Modern Systems: From Database Perf to AI Infra"
     date: 2026-12-03
