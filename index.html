@@ -269,9 +269,9 @@ layout: null
           {% if e.rsvp_url %}
           <a href="{{ e.rsvp_url }}" target="_blank" rel="noopener" class="past-link">Event page</a>
           {% endif %}
-          {% if e.recording_url %}
-          <a href="{{ e.recording_url }}" target="_blank" rel="noopener" class="past-link">Recording</a>
-          {% endif %}
+          {% for url in e.recording_urls %}
+          <a href="{{ url }}" target="_blank" rel="noopener" class="past-link"> Talk {% if e.recording_urls.size > 1 %} {{ forloop.index }}{% endif %}</a>
+          {% endfor %}
           {% if e.slides_url %}
           <a href="{{ e.slides_url }}" target="_blank" rel="noopener" class="past-link">Slides</a>
           {% endif %}
